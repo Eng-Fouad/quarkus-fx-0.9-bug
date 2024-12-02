@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<StackPane fx:id="rootPane" xmlns:fx="http://javafx.com/fxml" fx:controller="io.fouad.HomeFxController" stylesheets="@/views/home/home.css">
+    <BorderPane>
+        <center>
+            <Label text="Hello World" styleClass="red-label"/>
+        </center>
+    </BorderPane>
+</StackPane>
